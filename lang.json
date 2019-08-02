@@ -1,0 +1,14 @@
+{
+    "English":"  ",
+    "Translate": "ترجمة",    
+    "clear input": "مسح النص المدخل",
+    "clear output": "مسح النصوص المعروضة",
+    "About the Dict": "حول القاموس",
+    "Number of results": "عدد النتائج",
+    "Set the number of results":"حدد عدد النتائج",
+    "So sorry, there is no results": "المعذرة لا يوجد نتائج",
+    "Enter a word or sentence to translate":"أدخل كلمة أو جملة لترجمتها",
+    "You will see the translate here.You can copy the hole text or modify it then copy.":"ستعرض الترجمة هنا، يمكنك نسخ النص كاملا أو التعديل عليه ثم نسخه",
+    "There is No CSV file": " لا يوجد ملفات بإمتداد CSV ",
+    "open setting.json file go to the first entry 'paths' then add your paths to CSV files" : " إفتح الملف setting.json ثم إذهب إلى paths وقم بإضافة مسارات تحتوي على ملفات بإمتداد CSV "   
+}

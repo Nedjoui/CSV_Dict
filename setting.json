@@ -1,0 +1,17 @@
+{
+	"paths":["", "csv/", "csv_files"],
+    "input":"color: black; font-size: 20px; background: white ",
+    "output":"color: blue; font-size: 20px; background: wheat",
+    "line1":"color: green",
+    "line2":"color: rgb(100, 25, 07)",
+    "number_of_result": 30,
+    "framcolor": "background: rgb(170, 255, 127)",
+    "translate":"color: blue; background: #E6E4AD",
+    "clear input":"color: blue; background: #E6E4AD",
+    "clear output":"color: blue; background: #E6E4AD",
+    "about the dict":"color: blue; background: #E6E4AD",
+    "Set the number of results":"color:rgb(5,10,5); background: #fff",
+    "Number of results":"color:red; background: #fff",
+    "break":["color: red", "=",20]
+    
+}

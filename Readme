@@ -1,0 +1,27 @@
+   Assalamu Alykom,
+- Thank you for using CSV_Dict.
+- This Dictionary read csv files, with semicolon ";" delimiter "separated".
+- you can put csv files in folders with this names "csv" or "csv_file", or put them in the same folder with "CSV_Dict" file.
+- you can specify other paths for "csv files" by opening setting.json file then add your paths.
+- you can search for a word or sentence (both languages), when you put space before or after the word the rusalts maybe it will change.
+- if you want to change colors, font-size, background.........etc, open setting.json file and change whatever you want.
+- you can change the language from "lang.json", let English sentences, you have to change Arabic sentences only. if you want English interface let the  quotation mark empty.
+- from setting.json file you can change the styles as you want, and maybe you can add others, it's just a CSS stylesheet. But you don't have to change the names.
+-from the following you can do:
+    * "paths": add paths to a folders contain csv files.
+    * "number_of_result": default max number of results.
+    * "break": you can change the style and the character and the number of characters.
+-the dictionary can run without lang.json, setting.json files but whitout styles.
+---------------------------------------------------------------------------------------
+
+How can I get CSV files?
+========================
+
+-from internt
+-from Excel files (easy to change tp .csv).
+-from .po .mo files, many applications use those files for translation specially on linux. 
+-from any other files and database after editing, I used .xml, .db, .tmx
+
+
+
+                                                                                ----------- by: Nedjoui ---------------
