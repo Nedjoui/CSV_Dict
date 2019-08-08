@@ -1,12 +1,12 @@
 Assalamu Alykom
 
-if you want to get all .mo .po paths in a file run this tow lines from terminal
+if you want to get all .mo .po paths in a file run this two lines from terminal
 
 $ locate "*.mo" > mo_file.txt
 
 $ locate "*.po" > po_file.txt
 
-I have tried the above tow lines in Linux, if doesn't work in Window you have to do something else manually, apps like Everything is good for this.
+I have tried the above two lines in Linux, if doesn't work in Window you have to do something else manually, apps like Everything is good for this.
  
 
 if the letters of target language the same as the source, maybe you have to add the Abbreviation of the target language like, ar, en, ru, ko,......etc.
@@ -19,9 +19,9 @@ $ locate "*ar*.po" > po_file.txt
 after you get the mo_file.txt and po_file.txt you have to run po2csv.py , mo2csv.py
 you have to change some lines like: l_a, l_p (depends on target language)
 
-you will have tow files po.csv and mo.csv, and this is the database of CSV_Dict.
+you will have two files po.csv and mo.csv, and this is the database of CSV_Dict.
 
-if the size of these files are big you can split them to a small size with this line (Linux)
+if the sizes of these files are big you can split them to a small size with this line (Linux)
 
 $ split -l 10000 po.csv
 
