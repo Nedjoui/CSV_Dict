@@ -6,10 +6,10 @@ $ locate "*.mo" > mo_file.txt
 
 $ locate "*.po" > po_file.txt
 
-I have tried the above two lines in Linux, if doesn't work in Window you have to do something else manually, apps like Everything is good for this.
+I have tried the above two lines in Linux, if it doesn't work in Windows you have to do something else manually, apps like Everything is good for this.
  
 
-if the letters of target language the same as the source, maybe you have to add the Abbreviation of the target language like, ar, en, ru, ko,......etc.
+if the letters of the target language are the same as the source, maybe you have to add the Abbreviation of the target language like, ar, en, ru, ko,......etc.
 
 
 $ locate "*ar*.mo" > mo_file.txt
@@ -21,7 +21,7 @@ you have to change some lines like: l_a, l_p (depends on target language)
 
 you will have two files po.csv and mo.csv, and this is the database of CSV_Dict.
 
-if the sizes of these files are big you can split them to a small size with this line (Linux)
+if the sizes of these files are big you can split them into small size files with this line (Linux)
 
 $ split -l 10000 po.csv
 
